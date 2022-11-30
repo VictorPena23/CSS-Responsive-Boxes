@@ -1,3 +1,44 @@
 body {
   background: peachpuff;
 }
+
+* {
+  border: 3px solid midnightblue;
+}
+
+.a, .b, .c, .d, .e, .f, .g, .h {
+  background-color: pink;
+  font-size: 1em;
+  text-align: center;
+}
+
+.container {
+  justify-content: space-evenly;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  min-height: 90vh;
+}
+
+.wrapper{
+  display: flex;
+  flex-flow: row wrap;
+  gap: 15px;
+  min-height: 33vh;
+}
+
+.b, .c, .d, .e, .f, .g {
+  min-height: 18vh;
+  min-width: 30vw;
+}
+
+.a {
+  min-height: 15vh;
+  min-width: 100vh;
+}
+
+.h{
+  border-style: outset;
+  min-height: 50vh;
+  min-width: 50vh;
+}
